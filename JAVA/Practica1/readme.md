@@ -27,7 +27,7 @@ El objetivo de esta práctica es modelar un sistema de nómina donde se manejan 
 - Extiende Empleado y representa a un empleado cuyo salario depende de un porcentaje de sus ventas mensuales.
 - Implementa la interfaz IFecha.
 
-### 5. EmpeladoBaseComision (Nota: el nombre correcto debería ser EmpleadoBaseComision)
+### 5. EmpleadoBaseComision 
 
 - Extiende EmpleadoPorComision y agrega un salario base fijo además de la comisión por ventas.
 
