@@ -1,6 +1,5 @@
 
-
-public class EjercicioPrintf {
+public class ActividadPrintf {
 
 	public static void main(String[] args) {
 		
@@ -11,11 +10,11 @@ public class EjercicioPrintf {
 		
 		//System.out.printf("%B%n", false);
 		
-		//System.out.printf("’%s’ %n", "hola");
+		//System.out.printf("â€™%sâ€™ %n", "hola");
 		
-		System.out.printf("’%S’ %n", "hola");
+		System.out.printf("â€™%Sâ€™ %n", "hola");
 		
-		System.out.printf("’%15s’ %n", "hola");
+		System.out.printf("â€™%15sâ€™ %n", "hola");
 		
 		System.out.printf("%2.2s %n", "Hola Mundo");
 		
@@ -23,7 +22,7 @@ public class EjercicioPrintf {
 		//
 		//System.out.printf("%5.2f%n", 5.1473);
 		
-		//System.out.printf("’%5.2e’%n", 5.1473);
+		//System.out.printf("â€™%5.2eâ€™%n", 5.1473);
 		
 
 	}
