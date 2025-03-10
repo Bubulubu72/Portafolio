@@ -24,10 +24,5 @@ public class EmpeladoBaseComision extends EmpleadoPorComision{
 		return SalarioBase;}
 
 	public void setSalarioBase(double salarioBase) {
-		SalarioBase = salarioBase;}
-	
-	
-	
-	
-	
+		SalarioBase = salarioBase;}	
 }
