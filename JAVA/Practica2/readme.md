@@ -4,7 +4,7 @@ Este practica implementa una clase Racional que maneja operaciones matemáticas 
 La clase permite la creación de objetos de tipo racional con numerador y denominador, y proporciona métodos para realizar operaciones y comparar fracciones. 
 Además, incluye funcionalidades para la reducción de fracciones y la clonación de objetos racionales.
 
-##Clases:
+## Clases:
 
 ### Racional.java:
 
