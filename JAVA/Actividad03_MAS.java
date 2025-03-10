@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class Ejercicio03_MAS {
+public class Actividad03 {
 
 	public static void main(String[] args) {
 		
