@@ -45,5 +45,5 @@ Funciones:
 - receive(): Permite a un consumidor leer un mensaje del buzón. Si el buzón está vacío, espera hasta que haya un mensaje disponible.
 - Uso: Este tipo de sistema de buzón es muy común en la programación concurrente, donde se necesita una comunicación segura y eficiente entre múltiples hilos. Los productores envían mensajes al buzón, y los consumidores los leen, asegurando que no haya conflictos ni pérdida de datos.
 
-
+Ambos programas utilizan semáforos para la sincronización y exclusión mutua entre hilos, lo que es común en sistemas multihilo para evitar condiciones de carrera y asegurar el acceso ordenado a los recursos compartidos.
 
