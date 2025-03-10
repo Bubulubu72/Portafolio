@@ -1,4 +1,4 @@
-package mx.iteso.examen2;
+package Practica1;
 
 import java.util.Calendar;
 
@@ -20,7 +20,7 @@ public class EmpleadoAsalariado extends Empleado implements IFecha{
 		return Calendar.MONTH;}
 
 	@Override
-	public int año() {
+	public int aÃ±o() {
 		return Calendar.YEAR;}
 	
 	public String toString() {
@@ -33,11 +33,9 @@ public class EmpleadoAsalariado extends Empleado implements IFecha{
 	}
 	
 	//SETTER & GETTER//
-	
 	public double getSalario() {
 		return Salario;}
 
 	public void setSalario(double salario) {
 		Salario = salario;}
-	
 }
