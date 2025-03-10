@@ -1,4 +1,4 @@
-package mx.iteso.util;
+package practica2;
 
 public class Racional {
 	
