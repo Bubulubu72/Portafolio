@@ -1,6 +1,6 @@
 package practica1;
 
-public class EmpeladoBaseComision extends EmpleadoPorComision{
+public class EmpleadoBaseComision extends EmpleadoPorComision{
 	
 	private double SalarioBase;
 	
