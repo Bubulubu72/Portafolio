@@ -1,6 +1,6 @@
 # Practica 2
 
-1. getty.c
+## 1. getty.c
   Objetivo: Este programa simula el proceso de autenticación y la gestión de sesiones de usuario. Se encarga de pedir un nombre de usuario y una contraseña, verificar su validez y, si son correctos, iniciar un shell interactivo.
 
 Detalles:
@@ -8,7 +8,7 @@ Detalles:
 - login_loop: Función que inicia un ciclo donde el sistema solicita continuamente un nombre de usuario y una contraseña hasta que el usuario se autentica correctamente. Cuando un usuario es autenticado, se crea un proceso hijo que ejecuta un shell (./sh).
 - main: Llama a login_loop para iniciar el proceso de autenticación.
 
-2. init.c
+## 2. init.c
   Objetivo: Este programa actúa como el inicializador del sistema, creando múltiples instancias del proceso getty para gestionar las sesiones de usuario de manera concurrente.
 
 Detalles:
@@ -16,7 +16,7 @@ Detalles:
 - monitor_gettys: Función que monitorea los procesos getty y, si alguno de ellos termina, lo reinicia automáticamente, asegurando que siempre haya procesos getty corriendo.
 - main: Crea múltiples procesos getty y luego inicia la monitorización de estos.
 
-3. sh.c
+## 3. sh.c
   Objetivo: Simula un shell simple que permite a los usuarios ejecutar comandos. También incluye comandos especiales como exit para salir del shell y shutdown para terminar todos los procesos.
 
 Detalles:
