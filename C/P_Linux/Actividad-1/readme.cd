@@ -1,4 +1,4 @@
-#Actividad1
+# Actividad1
 Primer programa: 
 
 Este programa en C crea un proceso hijo utilizando fork() y realiza una ejecución concurrente de dos procesos: el proceso padre y el proceso hijo. 
