@@ -3,7 +3,6 @@
 Este proyecto es una aplicación orientada a objetos en Java que modela un sistema de gestión comercial, permitiendo la administración de clientes, productos, proveedores y transacciones mediante tickets. 
 Se basa en la interacción con una base de datos SQLite.
 
-
 ##Estructura del Proyecto
 
 El código está organizado en los siguientes paquetes:
@@ -27,7 +26,7 @@ El código está organizado en los siguientes paquetes:
 
 ### 3. Dependencias
 
-sqlite-jdbc-3.34.0.jar: Librería utilizada para la conexión con la base de datos SQLite.
+- sqlite-jdbc-3.34.0.jar: Librería utilizada para la conexión con la base de datos SQLite.
 
 ##
 
