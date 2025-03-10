@@ -1,4 +1,4 @@
-package mx.iteso.examen2;
+package Practica1;
 
 public class EmpleadoPorComision extends Empleado implements IFecha{
 	
@@ -18,12 +18,12 @@ public class EmpleadoPorComision extends Empleado implements IFecha{
 
 	@Override
 	public int mes() {
-		return MES_DEL_AÑO;
+		return MES_DEL_AÃ‘O;
 	}
 
 	@Override
-	public int año() {
-		return AÑO;
+	public int aÃ±o() {
+		return AÃ‘O;
 	}
 	
 	public String toString() {
@@ -37,7 +37,7 @@ public class EmpleadoPorComision extends Empleado implements IFecha{
 		return (this.ventasMes * (this.tarifaComision / 100));
 	}
 	
-	//SETTER´S & GETTER´S//
+	//SETTERÂ´S & GETTERÂ´S//
 	public double getVentasMes() {
 		return ventasMes;}
 
@@ -49,9 +49,4 @@ public class EmpleadoPorComision extends Empleado implements IFecha{
 
 	public void setTarifaComision(double tarifaComision) {
 		this.tarifaComision = tarifaComision;}
-	
-	
-	
-	
-	
 }
