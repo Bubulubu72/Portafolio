@@ -1,4 +1,4 @@
-# Practica2 (2020)
+# Practica2 
 
 Este practica implementa una clase Racional que maneja operaciones matemáticas básicas con números racionales, como suma, resta, multiplicación, y división. 
 La clase permite la creación de objetos de tipo racional con numerador y denominador, y proporciona métodos para realizar operaciones y comparar fracciones. 
