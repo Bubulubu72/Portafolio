@@ -1,5 +1,5 @@
 # Actividad 5
-Estos dos programas en C implementan un sistema de sincronización utilizando semáforos y control de acceso en un entorno de múltiples procesos e hilos.
+Estos dos programas implementan un sistema de sincronización utilizando semáforos y control de acceso en un entorno de múltiples procesos e hilos.
 
 Primer programa:
 
