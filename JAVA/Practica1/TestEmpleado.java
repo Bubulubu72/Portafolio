@@ -1,4 +1,4 @@
-package mx.iteso.examen2;
+package practica1;
 
 public class TestEmpleado {
 	
