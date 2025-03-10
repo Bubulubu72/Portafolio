@@ -1,4 +1,4 @@
-# Texto
+# Actividad 2
 
 Primer programa: 
 
