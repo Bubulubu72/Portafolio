@@ -4,7 +4,7 @@ public class EmpleadoBaseComision extends EmpleadoPorComision{
 	
 	private double SalarioBase;
 	
-	public EmpeladoBaseComision(String name, String app, String nss, double vm, double tc, double sb) {
+	public EmpleadoBaseComision(String name, String app, String nss, double vm, double tc, double sb) {
 		super(name, app, nss, vm, tc);
 		setSalarioBase(sb);
 	}
