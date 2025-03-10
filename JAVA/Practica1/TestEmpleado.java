@@ -18,7 +18,7 @@ public class TestEmpleado {
 		
 		EmpleadoPorComision emp3 = new EmpleadoPorComision("William", "Forrester", "87651234", 100000, 3.5);
 		
-		EmpeladoBaseComision emp4 = new EmpeladoBaseComision("James", "Bond", "007", 150000, 4.0, 800);
+		EmpleadoBaseComision emp4 = new EmpleadoBaseComision("James", "Bond", "007", 150000, 4.0, 800);
 		
 		Empleado [] emp = {emp1, emp2, emp3, emp4};
 		
