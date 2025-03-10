@@ -1,9 +1,8 @@
 import javax.swing.JOptionPane;
 
 @SuppressWarnings("unused")
-public class Ejercicio06 {
+public class Actividad05 {
 
-	/*
 	@SuppressWarnings("null")
 	public static void main(String[] args) {
 		 
@@ -57,9 +56,7 @@ public class Ejercicio06 {
 		 
 		 for( int i = 0;  i <= v.length; i++) {
 			 v[i] = Math.random(); }
-		 
-		 
+		  
 		 
 	}
-	*/
 }
