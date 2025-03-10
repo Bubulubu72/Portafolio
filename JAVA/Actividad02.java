@@ -1,7 +1,5 @@
 
-
-
-public class Ejercicio03 {
+public class Actividad02 {
 
 	public static void main(String[] args) {
 	
