@@ -1,4 +1,4 @@
-package mx.iteso.examen2;
+package Practica1;
 
 public class Empleado {
 	
@@ -10,9 +10,7 @@ public class Empleado {
 		setnSeguroSocial(nss);
 	}
 	
-	
-	//SETTER´S & GETTER´S//
-	
+	//SETTERÂ´S & GETTERÂ´S//
 	public String getNombres() {
 		return nombres;}
 
@@ -32,7 +30,6 @@ public class Empleado {
 		this.nSeguroSocial = nSeguroSocial;}
 	
 	//METODOS//
-	
 	public String toString() {
 		String msg = String.format("Nombre: %s %s \n No. Seguro Social: %s \n",
 									this.nombres, this.apellidos, this.nSeguroSocial);
