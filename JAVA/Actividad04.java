@@ -1,11 +1,10 @@
-//import javax.swing.JOptionPane;
+import javax.swing.JOptionPane;
 
-public class Ejercicio04 {
+public class Actividad04 {
 
 	public static void main(String[] args) {
 		
-	// Ejecicio 1 //
-	/*	
+	// Ejecicio 1 //	
 	double l = 0, h = 0;
 	
 	String enter = JOptionPane.showInputDialog("Cuanto mide el lado: ");
@@ -14,10 +13,7 @@ public class Ejercicio04 {
 	enter = JOptionPane.showInputDialog("Cuanto mide la altura: ");
 	h = Double.parseDouble(enter);
 	
-	
-	
-	// Ejercicio 4 //
-	
+	// Ejercicio 2 //
 	int dias = 0, horas = 0, minutos = 0, seg = 0;
 	
 	String enter4 = JOptionPane.showInputDialog("Cuantos segundos: ");
@@ -37,14 +33,6 @@ public class Ejercicio04 {
 			" \n \t %d minutos y \n \t %d segundos", segundosOr, dias, horas, minutos, seg);
 	
 	JOptionPane.showInputDialog(null, mensaje, 1);
-	*/
-	
-	// Ejerciico 6 //
-	
-	
-	
-	
-	
 	
 	}
 
