@@ -25,8 +25,8 @@ Detalles:
 
 ##
  
-- init.c: Inicia el sistema creando 6 procesos getty que se ejecutan en terminales xterm. Cada proceso getty se encarga de autenticar a los usuarios.
-- getty.c: Solicita al usuario un nombre de usuario y contraseña, validando su autenticidad. Si son correctos, inicia un shell interactivo (sh.c).
-- sh.c: Proporciona un shell simple donde los usuarios pueden ejecutar comandos. Permite comandos como exit y shutdown para gestionar el proceso.
+- init: Inicia el sistema creando 6 procesos getty que se ejecutan en terminales xterm. Cada proceso getty se encarga de autenticar a los usuarios.
+- getty: Solicita al usuario un nombre de usuario y contraseña, validando su autenticidad. Si son correctos, inicia un shell interactivo (sh.c).
+- sh: Proporciona un shell simple donde los usuarios pueden ejecutar comandos. Permite comandos como exit y shutdown para gestionar el proceso.
   
 Este sistema emula un entorno de login básico con autenticación de usuarios y un shell interactivo, ideal para ser utilizado en un entorno de pruebas o simulación.
