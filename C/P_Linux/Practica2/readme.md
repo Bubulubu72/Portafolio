@@ -1,4 +1,4 @@
-# Practica 2
+# Practica 2 Simulacion de Shell con user
 
 ## 1. getty.c
   Objetivo: Este programa simula el proceso de autenticación y la gestión de sesiones de usuario. Se encarga de pedir un nombre de usuario y una contraseña, verificar su validez y, si son correctos, iniciar un shell interactivo.
