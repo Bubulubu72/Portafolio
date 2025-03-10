@@ -23,7 +23,7 @@ Detalles:
 - execute_command: Función que toma una cadena de texto con un comando y lo ejecuta utilizando execvp, que busca el comando en el sistema y lo ejecuta. Si el comando no se encuentra, muestra un error.
 - main: Proporciona un prompt interactivo (sh >) para que el usuario ingrese comandos. Si el comando es exit, el shell se cierra. Si el comando es shutdown, se envía una señal de terminación a todos los procesos en ejecución. De lo contrario, ejecuta el comando ingresado.
 
- ///
+##
  
 - init.c: Inicia el sistema creando 6 procesos getty que se ejecutan en terminales xterm. Cada proceso getty se encarga de autenticar a los usuarios.
 - getty.c: Solicita al usuario un nombre de usuario y contraseña, validando su autenticidad. Si son correctos, inicia un shell interactivo (sh.c).
