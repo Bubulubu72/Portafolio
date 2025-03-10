@@ -1,4 +1,4 @@
-package mx.iteso.examen2;
+package Practica1;
 
 public class EmpeladoBaseComision extends EmpleadoPorComision{
 	
