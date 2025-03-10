@@ -1,4 +1,4 @@
-package mx.iteso.examen2;
+package practica1;
 
 public class EmpleadoPorHoras extends Empleado implements IFecha{
 	
@@ -17,11 +17,11 @@ public class EmpleadoPorHoras extends Empleado implements IFecha{
 
 	@Override
 	public int mes() {
-		return MES_DEL_AÑO;}
+		return MES_DEL_AÃ‘O;}
 
 	@Override
-	public int año() {
-		return AÑO;}
+	public int aÃ±o() {
+		return AÃ‘O;}
 	
 	public String toString() {
 		String msg = String.format("%s Empleado por horas con salario por horas: %.2f \n "
@@ -33,7 +33,7 @@ public class EmpleadoPorHoras extends Empleado implements IFecha{
 		return (this.sueldoHora * this.HorasPorSeamana);
 	}
 	
-	//GETTER´S & SETTER´S//
+	//GETTERÂ´S & SETTERÂ´S//
 	
 	public double getSueldoHora() {
 		return sueldoHora;}
@@ -45,7 +45,5 @@ public class EmpleadoPorHoras extends Empleado implements IFecha{
 		this.sueldoHora = sueldoHora;}
 
 	public void setHorasPorSeamana(int horasPorSeamana) {
-		HorasPorSeamana = horasPorSeamana;}
-	
-	
+		HorasPorSeamana = horasPorSeamana;}	
 }
