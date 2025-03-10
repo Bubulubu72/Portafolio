@@ -1,6 +1,5 @@
-# Practica 1
+# Practica 1 (Java 8)
 
-JAVA 8
 Este repositorio contiene una implementación en Java de un sistema de empleados con diferentes tipos de pago. La estructura del proyecto sigue el paradigma de Programación Orientada a Objetos (POO) y demuestra el uso de herencia, polimorfismo e interfaces.
 
 El objetivo de esta práctica es modelar un sistema de nómina donde se manejan distintos tipos de empleados con cálculos específicos de salario según su modalidad de pago.
