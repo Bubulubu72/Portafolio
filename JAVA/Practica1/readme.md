@@ -39,7 +39,7 @@ El objetivo de esta práctica es modelar un sistema de nómina donde se manejan 
 ### 7. TestEmpleado
 
 - Clase principal que crea instancias de los diferentes tipos de empleados.
--Muestra la información de cada empleado y calcula su salario semanal.
+- Muestra la información de cada empleado y calcula su salario semanal.
 
 ## Autor
 Nicolas Alejandro Teran Yuen.
