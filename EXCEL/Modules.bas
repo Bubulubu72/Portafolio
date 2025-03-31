@@ -1,63 +1,80 @@
 Sub Clientes_Haga_clic_en()
-    
     Load FormularioClientes
     FormularioClientes.Show
-    
 End Sub
 
+' ///////////////////////////
+
 Sub Proveedor_Haga_click()
-    
     Load FormularioProveedores
-    FormularioProveedores.Show
-    
+    FormularioProveedores.Show 
 End Sub
+
+' ///////////////////////////
+
 Sub Abrir_Cliente()
-     Sheets("Adm. Clientes").Activate
-     
+     Sheets("Adm. Clientes").Activate 
 End Sub
+
+' ///////////////////////////
+
 Sub Abrir_Proveedores()
      Sheets("Adm. Proveedores").Activate
 End Sub
+
+' ///////////////////////////
 
 Sub Abrir_Almacen()
     Sheets("Adm. Almacen").Activate
 End Sub
 
+' ///////////////////////////
+
 Sub Abrir_Personal()
     Sheets("Adm. Personal").Activate
 End Sub
 
+' ///////////////////////////
+
 Sub Abrir_Facturas()
     Sheets("Facturacion").Activate
 End Sub
+
+' ///////////////////////////
+
 Sub Abrir_Reportes()
     Sheets("Reportes").Activate
 End Sub
+
+' ///////////////////////////
+
 Sub Abrir_Dashboard()
     Sheets("Dashboard").Activate
 End Sub
+
+' ///////////////////////////
 
 Sub MENU()
     Sheets("Menu Principal").Activate
 End Sub
 
-Sub AgregarAlmacen()
+' ///////////////////////////
 
+Sub AgregarAlmacen()
     Load FormularioAlmacen
     FormularioAlmacen.Show
-    
 End Sub
+
+' ///////////////////////////
 
 Sub AgregarPersonal()
-
     Load FormularioPersonal
     FormularioPersonal.Show
-    
 End Sub
 
+' ///////////////////////////
 
 Sub GenerarFactura()
-
     Dim ws As Worksheet
     Dim Cliente As Integer
     Dim Nombre As String
@@ -95,7 +112,6 @@ Sub GenerarFactura()
     SubTotal = ws.Range("G15").Value
     Total = ws.Range("G16").Value
     
-    
     ' Obtener la siguiente fila vacía en la tabla
     With Sheets("Facturacion")
         fila = .ListObjects("TablaFacturas").ListRows.Count + 1
@@ -120,9 +136,9 @@ Sub GenerarFactura()
     
 End Sub
 
+' ///////////////////////////
 
 Sub BorrarCeldasFactura()
-    
     Dim celda As Range
     For Each celda In Sheets("Facturacion").Range("B4")
         celda = ""
@@ -134,14 +150,12 @@ Sub BorrarCeldasFactura()
     
     For Each celda In Sheets("Facturacion").Range("A10:B13")
         celda = ""
-    Next celda
-    
+    Next celda 
 End Sub
 
-
+' ///////////////////////////
 
 Sub Borrar_Reporte()
-
     Dim celda As Range
     For Each celda In Sheets("Reportes").Range("B4:C4")
         celda = ""
@@ -154,11 +168,9 @@ Sub Borrar_Reporte()
     For Each celda In Sheets("Reportes").Range("B15:C15")
         celda = ""
     Next celda
-    
-
 End Sub
 
-
+' ///////////////////////////
 
 Sub Generar_Reporte()
     Dim ws As Worksheet
@@ -222,9 +234,10 @@ Sub Generar_Reporte()
     
     ' Confirmación de que los datos se agregaron
     MsgBox "Datos agregados correctamente", vbInformation
-    
-
 End Sub
+
+' ///////////////////////////
+
 Sub CopiarYRenombrarHoja()
     Dim wsOriginal As Worksheet
     Dim nuevaHoja As Worksheet
