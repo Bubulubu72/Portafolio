@@ -1,6 +1,6 @@
 # 📦 GameSuppliers Inventory System
 
-Este repositorio contiene las macros VBA utilizadas en el archivo de Excel para la gestión de inventario de la empresa **GameSuppliers** 
+Este repositorio contiene las macros VBA utilizadas en el archivo de Excel para la gestión de inventario de la empresa ficticia **GameSuppliers** 
 asi como el archivo en el formato .zip
 
 ## 📑 Descripción
