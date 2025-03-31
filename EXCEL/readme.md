@@ -50,7 +50,7 @@ Las macros en este repositorio permiten una navegación eficiente entre estas se
 ## 📌 Notas
 - Asegúrate de habilitar macros para un correcto funcionamiento.
 - La estructura del archivo Excel debe coincidir con las hojas mencionadas en las macros.
-- Este proyecto fue desarrollado como parte de una clase de Habilidades Digitales para demostrar conocimientos en VBA y Excel.
+- Este proyecto fue desarrollado como parte de una clase de Habilidades Digitales para demostrar conocimientos en VBA y Excel, asi que puede contener errores.
 
 ¡Gracias por revisar este proyecto! 🚀
 
