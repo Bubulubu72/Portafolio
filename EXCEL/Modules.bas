@@ -133,7 +133,6 @@ Sub GenerarFactura()
     
     ' Confirmación de que los datos se agregaron
     MsgBox "Datos agregados correctamente", vbInformation
-    
 End Sub
 
 ' ///////////////////////////
