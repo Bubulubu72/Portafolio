@@ -24,14 +24,6 @@ La base de datos incluye las siguientes tablas:
 - **DIM_TIEMPO:** Registra fechas relevantes para análisis temporal.
 - **FACT_VENTAS:** Contiene las transacciones realizadas, relacionando dimensiones para análisis de ventas.
 
-## Instalación y Uso
-1. Abrir un servidor de base de datos compatible con SQL Server.
-2. Ejecutar el archivo `PROYECTOBD.sql` para crear las tablas y estructuras necesarias.
-3. Utilizar herramientas de análisis OLAP o consultas SQL para obtener insights de los datos.
-
 ## Consultas de Ejemplo
 Algunas consultas incluidas en el proyecto permiten analizar tendencias de ventas, productos más vendidos y desempeño de los cajeros. Se pueden modificar para necesidades específicas del negocio.
-
-## Contribuciones
-Si deseas mejorar este proyecto, puedes enviar un pull request con mejoras en la estructura, optimización de consultas o implementación de nuevas dimensiones de análisis.
 
