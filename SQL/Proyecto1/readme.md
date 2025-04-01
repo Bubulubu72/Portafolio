@@ -22,7 +22,7 @@ La base de datos incluye las siguientes tablas:
 - **DIM_ALIMENTO:** Contiene información sobre los alimentos vendidos.
 - **DIM_CAJERO:** Almacena datos de los cajeros de la cafetería.
 - **DIM_TIEMPO:** Registra fechas relevantes para análisis temporal.
-- **HECHO_VENTAS:** Contiene las transacciones realizadas, relacionando dimensiones para análisis de ventas.
+- **FACT_VENTAS:** Contiene las transacciones realizadas, relacionando dimensiones para análisis de ventas.
 
 ## Instalación y Uso
 1. Abrir un servidor de base de datos compatible con SQL Server.
